@@ -9297,7 +9297,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2700567550347122241}
   m_Layer: 0
-  m_Name: Torre3
+  m_Name: TorreLaser1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
