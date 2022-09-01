@@ -1,0 +1,275 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Repos/TowerDefense/TowerDefense
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49624
+Successfully changed project path to: C:/Repos/TowerDefense/TowerDefense
+C:/Repos/TowerDefense/TowerDefense
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 36.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Repos/TowerDefense/TowerDefense/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   
+    VRAM:     3990 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002060 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.588 seconds
+Domain Reload Profiling:
+	ReloadAssembly (589ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (452ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (187ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003677 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Domain Reload Profiling:
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (784ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1862 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.8 MB.
+System memory in use after: 83.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2299.
+Total: 3.419700 ms (FindLiveObjects: 0.218500 ms CreateObjectMapping: 0.031900 ms MarkObjects: 2.976700 ms  DeleteObjects: 0.190300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/_Animations/mixamo.com.anim
+  artifactKey: Guid(9abee04a0d55ba14480607d1e54450f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/mixamo.com.anim using Guid(9abee04a0d55ba14480607d1e54450f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6942260f13568c5eec19de2a882ddc80') in 0.042034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.121872 seconds.
+  path: Assets/_Animations/Standing Melee Attack 360 High.fbx
+  artifactKey: Guid(b371b336720ad464d935c53b3cc555e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/Standing Melee Attack 360 High.fbx using Guid(b371b336720ad464d935c53b3cc555e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecb54c095c41ed3bf74f402f2eecd02') in 0.032203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.545931 seconds.
+  path: Assets/_Animations/Standing Melee Attack 360 High.anim
+  artifactKey: Guid(9abee04a0d55ba14480607d1e54450f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/Standing Melee Attack 360 High.anim using Guid(9abee04a0d55ba14480607d1e54450f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e4f96ce50fb373aeec5132a2445b0e') in 0.017119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.319358 seconds.
+  path: Assets/_Animations/Standing Melee Attack Downward.fbx
+  artifactKey: Guid(cd408f8754c386545891315d08a9bfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/Standing Melee Attack Downward.fbx using Guid(cd408f8754c386545891315d08a9bfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000217fdb808fcdba2229d4ed896349b') in 0.011132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.973400 seconds.
+  path: Assets/_Animations/mixamo.com.anim
+  artifactKey: Guid(65fb43968b6c21f409c47e1e76620b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/mixamo.com.anim using Guid(65fb43968b6c21f409c47e1e76620b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab0aabe1a557910c799bdcb8ca22741') in 0.013476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.654676 seconds.
+  path: Assets/_Animations/Standing Melee Attack Downward.anim
+  artifactKey: Guid(65fb43968b6c21f409c47e1e76620b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/Standing Melee Attack Downward.anim using Guid(65fb43968b6c21f409c47e1e76620b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1f6809200258b753f8d3f93be8d756') in 0.013370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.159178 seconds.
+  path: Assets/_Animations/Idle.fbx
+  artifactKey: Guid(207fbe650f4337147a5552602b18950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/Idle.fbx using Guid(207fbe650f4337147a5552602b18950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb14cf1dc938615b15c715c7f425dba6') in 0.011352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.222004 seconds.
+  path: Assets/_Animations/mixamo.com.anim
+  artifactKey: Guid(f0c0c05a23f7a0a47a6c8284e6a0ca1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/mixamo.com.anim using Guid(f0c0c05a23f7a0a47a6c8284e6a0ca1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84033d2b07e2861f9227948b47dbfdf9') in 0.011711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.479292 seconds.
+  path: Assets/_Animations/Idle.anim
+  artifactKey: Guid(f0c0c05a23f7a0a47a6c8284e6a0ca1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/Idle.anim using Guid(f0c0c05a23f7a0a47a6c8284e6a0ca1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f49aace38673f58afe2ed735e871f44') in 0.012030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.052625 seconds.
+  path: Assets/_Prefabs/TorreCañon1.prefab
+  artifactKey: Guid(c8f2cfcf668ae214f9c4d479135a1862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/TorreCañon1.prefab using Guid(c8f2cfcf668ae214f9c4d479135a1862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adcf5deeaaa34a13b4c197cd7b89c06') in 0.076894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.200677 seconds.
+  path: Assets/_Prefabs/TorreCañon2.prefab
+  artifactKey: Guid(3627fb20dcbd5cc4cbc6706d4c4dc77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/TorreCañon2.prefab using Guid(3627fb20dcbd5cc4cbc6706d4c4dc77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45a7ca89f9beb3f2793a91855572c32') in 0.015204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.575341 seconds.
+  path: Assets/_Prefabs/TorreLaser1.prefab
+  artifactKey: Guid(831b4f7280bbf2d4586970a8fa028206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/TorreLaser1.prefab using Guid(831b4f7280bbf2d4586970a8fa028206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cef7a661b818cbb2c0aa44da4f957be') in 0.024608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6972.381189 seconds.
+  path: Assets/_Prefabs/TorreCañon3.prefab
+  artifactKey: Guid(a644c8a871b882542873270abfee92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/TorreCañon3.prefab using Guid(a644c8a871b882542873270abfee92a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0010b318d16ae7e8136374fde64fe91') in 0.043514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 486.871776 seconds.
+  path: Assets/_Textures/Mago
+  artifactKey: Guid(d762e2f901663744f83f51f68d85ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Textures/Mago using Guid(d762e2f901663744f83f51f68d85ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e4034dcf5570ed345383fd6957023ae') in 0.005059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.388066 seconds.
+  path: Assets/_Materials/Mago
+  artifactKey: Guid(aab9b8d21525c0d4fa188d80d06ce47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/Mago using Guid(aab9b8d21525c0d4fa188d80d06ce47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a1c1a9521ddad0f91fc7b29b6954ab') in 0.002592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.894338 seconds.
+  path: Assets/_Models/Wizard.fbx
+  artifactKey: Guid(8b5991d77bf5f4b45802de1f1717bf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Wizard.fbx using Guid(8b5991d77bf5f4b45802de1f1717bf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda247374d55f19b7c0784c725e287af') in 0.132455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.044988 seconds.
+  path: Assets/_Models/Wizard.fbx
+  artifactKey: Guid(8b5991d77bf5f4b45802de1f1717bf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Wizard.fbx using Guid(8b5991d77bf5f4b45802de1f1717bf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb95d530c4fe8abaf6db2c8d9888c828') in 0.033357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.377885 seconds.
+  path: Assets/_Models/Wizard.fbx
+  artifactKey: Guid(8b5991d77bf5f4b45802de1f1717bf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Wizard.fbx using Guid(8b5991d77bf5f4b45802de1f1717bf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8e29fdf90d1086d8cb5476b60c901b') in 0.091574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.411456 seconds.
+  path: Assets/_Models/Wizard.fbx
+  artifactKey: Guid(8b5991d77bf5f4b45802de1f1717bf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Models/Wizard.fbx using Guid(8b5991d77bf5f4b45802de1f1717bf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f22fa37ecdbd795bb653f6db235dbb') in 0.062535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 404.544115 seconds.
+  path: Assets/_Animations/Casting Spell.fbx
+  artifactKey: Guid(5629c6a60aa690542a6e1324a6407b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/Casting Spell.fbx using Guid(5629c6a60aa690542a6e1324a6407b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18ed4a584c8194a1d2f18970798140d') in 0.008561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.531898 seconds.
+  path: Assets/_Animations/mixamo.com.anim
+  artifactKey: Guid(daa267bd0fd3f264dadff85569422cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/mixamo.com.anim using Guid(daa267bd0fd3f264dadff85569422cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e304434b43289979299cb760fc1908') in 0.023079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.249565 seconds.
+  path: Assets/_Animations/Casting Spell.anim
+  artifactKey: Guid(daa267bd0fd3f264dadff85569422cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/Casting Spell.anim using Guid(daa267bd0fd3f264dadff85569422cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf29379c90c46ee20f696a18743332a') in 0.022934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 133.376630 seconds.
+  path: Assets/_Animations/Enemy Controller.controller
+  artifactKey: Guid(ed6e201ec0de5b940832b81f8817ada4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Animations/Enemy Controller.controller using Guid(ed6e201ec0de5b940832b81f8817ada4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3301ebbd66a60d7bf30b0a7564032782') in 0.020684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 146.078884 seconds.
+  path: Assets/_Prefabs/TorreMago1.prefab
+  artifactKey: Guid(6e2d001a9a624eb4f931d75608ccb224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Prefabs/TorreMago1.prefab using Guid(6e2d001a9a624eb4f931d75608ccb224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b059347a6007b6bb0b84b116d99ed5d') in 0.018867 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
