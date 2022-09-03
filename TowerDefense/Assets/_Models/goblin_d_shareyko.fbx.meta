@@ -14,27 +14,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: eyes_eyes_lambert
-    second: {fileID: 2100000, guid: bdc257713090a634a9d31c4b9e0947fe, type: 2}
+    second: {fileID: 2100000, guid: 1274229ec51d0e54eb9b74489c371a64, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: phong1
-    second: {fileID: 2100000, guid: 789bd40add61d0c45a9ca2f5ff1ddac5, type: 2}
+    second: {fileID: 2100000, guid: c29fc7921ec9abb4cbc30d0f3aa8bc33, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: goblin_diffuse
-    second: {fileID: 2800000, guid: bd28a120b3929894283d4eed2f90162c, type: 3}
+    second: {fileID: 2800000, guid: d6f89e921551267489b6a47b01daa062, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: goblin_normal
-    second: {fileID: 2800000, guid: df50cf3adf0078a40a9be3d4136746ac, type: 3}
+    second: {fileID: 2800000, guid: 87d906abc8e3ef4449934258c4f9fa0a, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: goblin_specular
-    second: {fileID: 2800000, guid: c802a32b3641c3c4c992a0c1cc7a957a, type: 3}
+    second: {fileID: 2800000, guid: b4e388df4a5e3394b9e4ffc43a2868ba, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

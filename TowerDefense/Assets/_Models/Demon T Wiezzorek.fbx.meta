@@ -11,22 +11,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Demon_MAT
-    second: {fileID: 2100000, guid: 90f52e8e80e2c01488ad2f480d37118b, type: 2}
+    second: {fileID: 2100000, guid: 3725bf2fdedc7a24dbb2adec80fc4e55, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Demon__diffuse
-    second: {fileID: 2800000, guid: d76c8ef000ce078499f40dcc66db1d93, type: 3}
+    second: {fileID: 2800000, guid: 5a64b8fe65578af41afb4bc4dbd7a73c, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Demon__normal
-    second: {fileID: 2800000, guid: 391e0fcdf8fc7a44b94df8c548b4bc6c, type: 3}
+    second: {fileID: 2800000, guid: 0a244ba9bc0b14a4c96c730b3d001c32, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Demon__specular
-    second: {fileID: 2800000, guid: e1590c88ca0f7d6409b46cf34918e603, type: 3}
+    second: {fileID: 2800000, guid: e1216e381ef95494cb15801114ce947a, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

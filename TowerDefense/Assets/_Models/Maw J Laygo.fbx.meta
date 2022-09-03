@@ -11,27 +11,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MAW_MAT
-    second: {fileID: 2100000, guid: 8fd1baf4cbd007e4782010d500d3d327, type: 2}
+    second: {fileID: 2100000, guid: 3257243878fff7d41bf0d1d52200c074, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: MAW_diffuse
-    second: {fileID: 2800000, guid: 8637ae171e9278d488e3e2b9f351a1fd, type: 3}
+    second: {fileID: 2800000, guid: 36f5c37fd13c93648a6c0f927d73fd9d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: MAW_glow
-    second: {fileID: 2800000, guid: 77c3e47d58dea4742b68c2a7981feded, type: 3}
+    second: {fileID: 2800000, guid: 435616e1bedb4a449aa25deebeeba984, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: MAW_normal
-    second: {fileID: 2800000, guid: ae8cea642b51cfb4a8bff2cd21de4409, type: 3}
+    second: {fileID: 2800000, guid: b1e62c94d2458904bb9fd5bdeebf3fe5, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: maria_specular
-    second: {fileID: 2800000, guid: c1f69ca41e3febd48a87f44c0d808e30, type: 3}
+    second: {fileID: 2800000, guid: 904eaf3656f194845b44d0d24ae9927e, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
