@@ -1015,7 +1015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ca54acad45a096488860763dd159a09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetivo: {fileID: 4267087397557051481, guid: 33398ddca90b4d544a257bbb0b948ca0, type: 3}
+  objetivo: {fileID: 0}
   vida: 100
   Anim: {fileID: 0}
 --- !u!1 &2471173292320963826
