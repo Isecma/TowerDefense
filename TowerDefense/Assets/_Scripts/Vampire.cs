@@ -9,6 +9,15 @@ public class Vampire : MonoBehaviour
     public int vida = 25;
 
     public Animator Anim;
+    private void OnEnable()
+    {
+        objetivo = GameObject.Find("Objetivo");
+    }
+
+    private void OnDisable()
+    {
+
+    }
 
     // Start is called before the first frame update
     void Start()
