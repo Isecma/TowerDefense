@@ -3,52 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Vampire : MonoBehaviour
+public class Vampire : EnemigoBase
 {
-    public GameObject objetivo;
-    public int vida = 25;
-
-    public Animator Anim;
-    private void OnEnable()
+    private void Awake()
     {
-        objetivo = GameObject.Find("Objetivo");
+        vida = 25;
+        _dano = 15;
     }
 
-    private void OnDisable()
+    public override void OnDestroy()
     {
-
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        GetComponent<NavMeshAgent>().SetDestination(objetivo.transform.position);
-        Anim = GetComponent<Animator>();
-        Anim.SetBool("IsMoving", true);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Objetivo")
-        {
-            Anim.SetBool("IsMoving", false);
-            Anim.SetTrigger("OnObjectiveReached");
-        }
-    }
-
-    public void Danar()
-    {
-        objetivo?.GetComponent<Objetivo>().RecibirDano(15);
-    }
-
-    public void RecibirDano(int dano = 5)
-    {
-        vida -= dano;
+        base.OnDestroy();
+        referenciaAdminJuego.enemigosBaseDerrotados++;
     }
 }

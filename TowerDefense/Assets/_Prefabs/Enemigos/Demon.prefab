@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 837874253013415845}
   m_Layer: 0
   m_Name: Demon
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -379,7 +379,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetivo: {fileID: 0}
   vida: 30
+  _dano: 5
+  recursosGanados: 100
   Anim: {fileID: 0}
+  referenciaSpawner: {fileID: 0}
+  referenciaAdminJuego: {fileID: 0}
 --- !u!1 &1198431439067789891
 GameObject:
   m_ObjectHideFlags: 0

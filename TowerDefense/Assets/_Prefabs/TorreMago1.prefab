@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7591852432144608439}
+  - component: {fileID: 6026988336007762775}
   m_Layer: 0
   m_Name: TorreMago1
   m_TagString: Untagged
@@ -33,9 +34,29 @@ Transform:
   - {fileID: 1907161755131648121}
   - {fileID: 3404327479860012656}
   - {fileID: 6014503626251584635}
+  - {fileID: 1786300701639296503}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6026988336007762775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812637878305289472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cda7c7596a86cc4fbc506f71c7cdf57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigo: {fileID: 0}
+  prefabBala: {fileID: 0}
+  puntasCanon:
+  - {fileID: 8786013111513838128}
+  mago: {fileID: 2235967326518773796}
+  prefabMagia: {fileID: 951662876256117623, guid: f7c559537da6557479187b04ebd76857, type: 3}
+  _dano: 15
 --- !u!1 &832861454662196409
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,6 +629,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8786013111513838128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1786300701639296503}
+  m_Layer: 0
+  m_Name: PuntaCanon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1786300701639296503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8786013111513838128}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.47, z: 0.94}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7591852432144608439}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1185072706903173108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -665,6 +716,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: faeff6e9e938ca143929fd941813254c, type: 3}
+--- !u!1 &2235967326518773796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1114070496614379472, guid: faeff6e9e938ca143929fd941813254c, type: 3}
+  m_PrefabInstance: {fileID: 1185072706903173108}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1462562409904886430 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 305727567581754730, guid: faeff6e9e938ca143929fd941813254c, type: 3}
