@@ -3081,7 +3081,7 @@ GameObject:
   - component: {fileID: 8592727028722646375}
   m_Layer: 0
   m_Name: Vampire
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3186,7 +3186,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objetivo: {fileID: 0}
   vida: 25
+  _dano: 5
+  recursosGanados: 100
   Anim: {fileID: 0}
+  referenciaSpawner: {fileID: 0}
+  referenciaAdminJuego: {fileID: 0}
 --- !u!1 &8669840199160830157
 GameObject:
   m_ObjectHideFlags: 0

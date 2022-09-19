@@ -9296,6 +9296,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2700567550347122241}
+  - component: {fileID: 3822074768755823034}
+  - component: {fileID: 1466445972666053933}
   m_Layer: 0
   m_Name: TorreLaser1
   m_TagString: Untagged
@@ -9320,6 +9322,124 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3822074768755823034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5145058735200194550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e7c87938b9403459c37f676e99048c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigo: {fileID: 0}
+  prefabBala: {fileID: 0}
+  puntasCanon:
+  - {fileID: 7580732106138562043}
+  divisionRayo: 10
+  LRRayo: {fileID: 0}
+  puntos: []
+  potenciaRayo: 1
+--- !u!120 &1466445972666053933
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5145058735200194550}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2ddc3800dbbd24c41a0fe5a8b9e0f063, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.24285698
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 0.16470589, g: 0.47450984, b: 0.5058824, a: 1}
+      key1: {r: 0.8000001, g: 0.5882353, b: 0.9725491, a: 1}
+      key2: {r: 0.8000001, g: 0.5882353, b: 0.9725491, a: 1}
+      key3: {r: 0.8000001, g: 0.5882353, b: 0.9725491, a: 1}
+      key4: {r: 0.8000001, g: 0.5882353, b: 0.9725491, a: 1}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 24672
+      ctime1: 38936
+      ctime2: 62066
+      ctime3: 62066
+      ctime4: 62066
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 22552
+      atime1: 44525
+      atime2: 35081
+      atime3: 35081
+      atime4: 35081
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
 --- !u!1 &5165366419466511951
 GameObject:
   m_ObjectHideFlags: 0
@@ -9527,7 +9647,7 @@ GameObject:
   - component: {fileID: 7034066126543155442}
   - component: {fileID: 2315942212888176272}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Antena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
